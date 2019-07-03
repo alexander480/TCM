@@ -54,14 +54,22 @@
 		FAB796101E955D3900318790 /* The Connected Mailbox - XVI */ = {
 			isa = PBXGroup;
 			children = (
-				FAB796111E955D3900318790 /* AppDelegate.swift */,
 				FAB796131E955D3900318790 /* ViewController.swift */,
 				FAB796151E955D3900318790 /* Main.storyboard */,
+				FAB796231E955D4A00318790 /* Other */,
+			);
+			path = "The Connected Mailbox - XVI";
+			sourceTree = "<group>";
+		};
+		FAB796231E955D4A00318790 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FAB796111E955D3900318790 /* AppDelegate.swift */,
 				FAB796181E955D3900318790 /* Assets.xcassets */,
 				FAB7961A1E955D3900318790 /* LaunchScreen.storyboard */,
 				FAB7961D1E955D3900318790 /* Info.plist */,
 			);
-			path = "The Connected Mailbox - XVI";
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +114,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -300,6 +309,7 @@
 				FAB796221E955D3900318790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
